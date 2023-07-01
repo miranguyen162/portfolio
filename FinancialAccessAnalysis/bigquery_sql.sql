@@ -1,11 +1,18 @@
-``` Data tables:```
--- Indicator definition: country_series_definitions
--- Main data: indicators_data
--- Topic and related indicators; series_summary
--- Year ranges of year representative: series_time
--- country_summary + footnotes: unknown
+``` DATABASE INTRODUCTION: 
+World Development Indicators (WDI) is the primary World Bank collection of development indicators, 
+compiled from officially recognized international sources. 
+It presents the most current and accurate global development data available, and includes national, regional and global estimates.
+Dataname on BigQuery Public Data: bigquery-public-data.world_bank_wdi
+    
+TABLES:
+- country_series_definitions: Indicator definition.
+- indicators_data: main data.
+- series_summary: Topic and related indicators.
+- series_time: Year ranges of year representative.
+- country_summary & footnotes: Summary for countries and further appendix.
+```
 
-
+    
 ```1. Explore Data```
 -- Ques: How many topics used for measuring WDI?
 select distinct(main_topic) from
