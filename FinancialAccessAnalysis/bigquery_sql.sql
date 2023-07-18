@@ -1,10 +1,5 @@
-``` DATABASE INTRODUCTION: 
-World Development Indicators (WDI) is the primary World Bank collection of development indicators, 
-compiled from officially recognized international sources. 
-It presents the most current and accurate global development data available, and includes national, regional and global estimates.
-Dataname on BigQuery Public Data: bigquery-public-data.world_bank_wdi
-    
-TABLES:
+```    
+Available tables in the dataset:
 - country_series_definitions: Indicator definition.
 - indicators_data: main data.
 - series_summary: Topic and related indicators.
