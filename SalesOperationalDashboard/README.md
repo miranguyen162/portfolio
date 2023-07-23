@@ -5,3 +5,4 @@
   * How percentage of metrics in different fulfilments, and service levels?
   * How are sales performances of categories?
   * How are sales performances in states, in terms of revenue?
+ * Tableau Dashboard: [Link](https://public.tableau.com/app/profile/nguy.n.th.minh.tr.m/viz/Amazon_Sales_Dashboard_16900321343090/Dashboard1?publish=yes) 
